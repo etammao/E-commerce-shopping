@@ -1,0 +1,76 @@
+.navbar{
+    background-color:#FFC90D;
+    height: 10%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+}
+#Logo{
+    max-width: 80%;
+}
+.container{
+    padding: 0;
+}
+.input-group{
+    margin: auto;
+    margin-top: 4%;
+}
+#display{
+    width: 100%;
+    padding: 0;
+    margin-top: 4%;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-inner{
+    max-height: 180px;
+}
+.row{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.Ad{
+    display: none;
+}
+
+.product{
+    width: 100%;
+    height: 15%;
+    margin: 2%;
+}
+.product>img{
+    height: 70%;
+}
+#displayPrices{
+    margin: 4%;
+}
+footer{
+    height: 10%;
+    background-color: grey;
+    color: ivory;
+}
+.py-4{
+    padding-bottom: 0!important;
+}
+@media all and (min-width:768px){
+    .carousel-inner{
+        max-height: 460px;
+    }
+    .row>div{
+        flex: 1;
+    }
+    .Ad{
+        margin-top: 4%;
+        display: flex;
+    }
+    .Ad>img{
+        padding-left: 8%;
+        max-width: 80%;
+    }
+ 
+    footer>div{
+        width: 100%;
+    }
+}
